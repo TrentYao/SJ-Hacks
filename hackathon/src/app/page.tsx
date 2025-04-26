@@ -4,17 +4,20 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-8 bg-gray-50">
       {/* Header */}
-      <header className="flex justify-between items-center w-full max-w-6xl py-6">
-        <div className="text-xl font-bold text-blue-500">SJ HOPE HUB</div>
-        <div>
-          <button className="flex items-center gap-2 border border-gray-300 rounded-md px-3 py-1 text-sm text-gray-700 hover:bg-blue-500 transition">
-            🇺🇸 English ▼
-          </button>
-        </div>
-      </header>
+      <header className="w-full">
+  <div className="absolute top-8 left-8 text-xl font-bold text-blue-500">
+    SJ HOPE HUB
+  </div>
+  <div className="absolute top-8 right-8">
+    <button className="flex items-center gap-2 border border-gray-300 rounded-md px-3 py-1 text-sm text-blue-500 hover:bg-blue-50 transition">
+      🇺🇸 English ▼
+    </button>
+  </div>
+</header>
+
 
       {/* Title */}
-      <h1 className="text-3xl md:text-4xl font-bold text-center mt-8 mb-12">
+      <h1 className="text-3xl md:text-4xl font-bold text-center mt-8 mb-12 text-blue-500">
         Helping San Jose Residents<br />Find Immediate Help
       </h1>
 
